@@ -141,3 +141,58 @@ body article iframe {
   background-size: cover;
   border-bottom: solid #111;
 }
+
+.projects {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	background-color: lightgray;
+	height: 500px;
+}
+
+.skills {
+	font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+	height: 500px;
+}
+
+.projectInfo {
+	font-family: 'Roboto Mono', monospace;
+	color: #111;
+}
+
+.projectHeader, .skillsHeader {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;
+	color: darkblue;
+}
+
+.projectInfo span h2 {
+	font-weight: lighter;
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.projectInfo span {
+	display: inline-block;
+}
+
+.projectInfo span .projectSpanOne {
+}
+
+.codeIcon {
+	width: 40px; height: auto; white-space: nowrap; padding-right: 20px;
+	vertical-align: bottom;
+}
+
+.projectInfo p {
+	display: block;
+	width: 70vw;
+	margin: 5.5px auto;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
