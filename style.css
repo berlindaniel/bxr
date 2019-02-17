@@ -242,8 +242,9 @@ body article iframe {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 16px 18px;
   transition: 0.3s;
+	font-size: 20px;
 }
 
 .tab button:hover {
@@ -256,6 +257,7 @@ body article iframe {
 
 .tabcontent {
   display: none;
+	font-family: Helvetica, sans-serif;
   padding: 6px 12px;
   border-top: none;
 }
