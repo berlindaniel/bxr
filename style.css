@@ -119,7 +119,7 @@ body article iframe {
   border-radius: 100%;
   width: 10em;
   padding: 0em 2em;
-  float: left;
+  float: right;
 }
 
 .welcome-text, .bodyHeader {
@@ -196,3 +196,41 @@ body article iframe {
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
+
+.roadmapList li {
+	/* display: block; */
+	width: 70vw;
+	margin: 5.5px auto;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.teamTable {
+	font-family: Helvetica, sans-serif;
+  font-size: 18px;
+	background-color: lightgray;
+	height: 300px;
+	width: 100%;
+}
+
+.members {
+	border: 1px solid black;
+}
+
+.members tr {
+	border: 1px solid black;
+}
+
+.members th {
+	border: 1px solid black;
+}
+
+
+.members tr td {
+	border: 1px solid black;
+}
+
+.
