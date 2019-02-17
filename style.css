@@ -212,27 +212,8 @@ body article iframe {
 	font-family: 'Roboto Mono', monospace;
   font-size: 20px;
 	background-color: lightgray;
-	height: 300px;
+	height: 400px;
 	width: 100%;
-}
-
-.members {
-	font-family: Helvetica, sans-serif;
-	font-size: 18px;
-	border: 1px solid black;
-}
-
-.members tr {
-	border: 1px solid black;
-}
-
-.members th {
-	border: 1px solid black;
-}
-
-
-.members tr td {
-	border: 1px solid black;
 }
 
 .buttonAndForm {
@@ -246,4 +227,35 @@ body article iframe {
 	font-family: 'Roboto Mono', monospace;
   font-size: 20px;
 	text-align: center;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: inherit;
+	text-align: center;
+}
+
+.tab button {
+  background-color: inherit;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: white;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
 }

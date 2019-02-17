@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" async></script>
   </head>
   <header>
     <a href="index.html" class="header-index">BXR</a>
@@ -68,28 +70,29 @@
       </article>
       <article class="teamTable">
         <h1 class="projectHeader">Team Info</h1>
-        <table class="members" align="center">
-          <tr>
-            <th>Name</th>
-            <th>Hometown</th>
-            <th>Interesting Fact</th>
-          </tr>
-          <tr>
-            <td>Will Sheehan</td>
-            <td>Maui, Hawaii</td>
-            <td>I have six siblings</td>
-          </tr>
-          <tr>
-            <td>Daniel Berlin</td>
-            <td>Cleveland, Ohio</td>
-            <td>Three things I would take to a desert island: Water, Broccoli, and my favorite text editor</td>
-          </tr>
-          <tr>
-            <td>Christine Hwang</td>
-            <td>Ocala, Florida</td>
-            <td>Spongebob is my favorite TV show</td>
-          </tr>
-        </table>
+
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'Will')">Will</button>
+          <button class="tablinks" onclick="openTab(event, 'Daniel')">Daniel</button>
+          <button class="tablinks" onclick="openTab(event, 'Christine')">Christine</button>
+        </div>
+
+        <div id="Will" class="tabcontent">
+          <h3>Will</h3>
+          <p>Will is originally from Maui, Hawaii. He has six siblings.</p>
+        </div>
+
+        <div id="Daniel" class="tabcontent">
+          <h3>Daniel</h3>
+          <p>Daniel is originally from Cleveland, Ohio. Three things he would take to a desert island
+          with him: water, broccoli, and his favorite text editor.</p>
+        </div>
+
+        <div id="Christine" class="tabcontent">
+          <h3>Christine</h3>
+          <p>Christine is originally from Ocala, Florida. She likes to watch the show Spongebob.</p>
+        </div>
+
       </article>
       <article class="buttonAndForm">
         <h1 class="projectHeader"> Sign up Here</h1>
